@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command Secondary School</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navigation corner -->
+    <nav>
+    <img src="Images/command logo.webp" alt="command">
+    <div class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Facility Tour</a></li>
+            <li><a href="#">Cisco Academic</a></li>
+            <li><a href="#">Contacts</a></li>
+
+        </ul>
+    </div>
+</nav>
+<!-- home page -->
+ <div class="container">
+     <section id="home">
+        <h1>Command Secondary School Ikeja</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus asperiores labore praesentium.</p>
+        <div class="btn">
+            <a href="#" class="green">Learn More</a>
+            <a href="#" class="red">Cisco courses</a>
+       </div>
+     </section>
+     
+ </div>
+ <!-- about page -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <video width="380" height="400" controls>
+                    <source src="Images/command video2.mp4" type="video/mp4">
+                    <source src="Images/command video2.ogg" type="video/ogg">
+                    <h3>Your browser does not support the video tag.</h3> 
+                  </video>
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About them</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, accusantium?</p>
+               <div class="tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('skills')"> Mission</p>
+                         <p class="tab-links" onclick="opentab('experience')"> Vision</p>
+                         <p class="tab-links" onclick="opentab('education')"> Aims and Objectives</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                         <ul>
+                             <li><span>Mission</span><br>“To produce disciplined students in a perfect learning environment, who will achieve excellence in all human endeavours”.</li>
+                             <!-- <li><span>Graphics</span><br>Design</li>
+                             <li><span>Interior</span><br>Design</li> -->
+                         </ul>
+                     </div>
+                     <div class="tab-contents active-tab2" id="experience">
+                        <ul>
+                            <li><span>Vision</span><br>“To give a child/student the greatest gift, the root of responsibilities and vein of independence”.</li>
+                            <!-- <li><span>2021</span><br>Networking with Models</li>
+                            <li><span>2021</span><br>Networking with military</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>First aim</span><br>To cater primarily for the discipline. Academic and moral needs of children of military personnel and ensure continuity of their education.</li>
+                            <li><span>Second aim</span><br>To compliments the efforts of both state and federal government in bringing Post-Primary Education to all.</li>
+                            <li><span>Third aim</span><br>To serve as model secondary school to all existing ones because of the inherent discipline in the military.</li>
+                        </ul>
+                    </div>
+            </div>
+    </div>
+        </div>
+    </div>
+        <!-- end of about -->
+        <!-- Facility tour -->
+        <div id="portfolio">
+            <div class="container">
+               <h1 class="sub-title">School Gallery</h1>
+               <div class="work-list">
+                   <div class="work">
+                       <img src="Images/staff.jpeg" alt="1">
+                       <div class="layer">
+                           <h3>Social media app</h3>
+                           <p>Its fun to be with and to play with</p>
+                           <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                       </div>
+                   </div>
+                   <div class="work">
+                    <img src="Images/command logo.webp" alt="2">
+                    <div class="layer">
+                        <h3>Photo app</h3>
+                        <p>Gallary of people.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/students.jpeg" alt="3">
+                    <div class="layer">
+                        <h3>Digital app</h3>
+                        <p>Digital networking people.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               </div>
+               <a href="#" class="button">See more</a>
+            </div>
+        </div>
+        
+        <script src="JS/index.js"></script>
+</body>
+</html>
